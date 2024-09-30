@@ -1,0 +1,69 @@
+*{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+header {
+    background-color:  burlywood;
+    padding: 20px;
+    position: sticky;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color:  burlywood;
+    padding: 0;
+}
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: burlywood;
+}
+.menu li{
+    margin: 0 10px;
+    background-color:  burlywood;
+}
+.menu :hover{
+    background-color: black;
+    border-radius: 20px; 
+}
+
+.main{
+    margin: 20px;
+    width: 700px;
+}
+
+#sobremim{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#projetos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#areadev{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+}
+footer{
+    padding-left: 48px;
+    background-color: gainsboro;
+    height: 100px;
+    margin-top: 60px;
+}
+footer, p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+}
